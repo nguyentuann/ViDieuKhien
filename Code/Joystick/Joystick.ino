@@ -21,6 +21,9 @@ void loop() {
     Serial.println(z, DEC);
     delay(100); 
 }
+
+
+
 // pinMode(JoyStick_Z, INPUT); 
 // int LED = 13;
 // pinMode(LED, OUTPUT);
