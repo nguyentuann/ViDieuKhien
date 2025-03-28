@@ -39,13 +39,13 @@ void loop() {
     Serial.print("Trạng thái LINE: ");
     Serial.println(val); // In giá trị đọc từ LINE (0 hoặc 1)
     
-    if (val == 1) {
-        digitalWrite(LED, HIGH); // Bật LED nếu LINE có tín hiệu HIGH
-        Serial.println("LED: ON"); // In trạng thái LED
-    } else {
-        digitalWrite(LED, LOW);  // Tắt LED nếu LINE có tín hiệu LOW
-        Serial.println("LED: OFF"); // In trạng thái LED
-    }
+    // if (val == 1) {
+    //     digitalWrite(LED, HIGH); // Bật LED nếu LINE có tín hiệu HIGH
+    //     Serial.println("LED: ON"); // In trạng thái LED
+    // } else {
+    //     digitalWrite(LED, LOW);  // Tắt LED nếu LINE có tín hiệu LOW
+    //     Serial.println("LED: OFF"); // In trạng thái LED
+    // }
 
     // if (val==0) { // gặp vật cản 
     //     for (int x = 0; x < 180; x++) {
